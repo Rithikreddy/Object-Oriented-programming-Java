@@ -20,7 +20,7 @@ class Employee extends Person{
     Employee(int ab,String s,int salary){
         super(ab,s);              //If this statement is commented then the Person() constructor is automatically invoked
         this.salary=salary;
-        //if(s=="Anisha")          //Once if this if statement is activated if the Colour is static then for every object
+        //if(s=="Hello")          //Once if this if statement is activated if the Colour is static then for every object
                                     //created from that time it's colour field will be changed
         //this.colour=super.colour; //colour of the current object is changed to white
     }
@@ -34,7 +34,7 @@ public class Super{
     public static void main(String args[]){
         Employee e = new Employee(3,"Rithik",1000000000);
         e.eat();
-        Employee e1 = new Employee(4,"Anisha",10000000);
+        Employee e1 = new Employee(4,"Hello",10000000);
         e1.eat();
     }
 }
